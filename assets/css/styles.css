@@ -1,0 +1,166 @@
+body { font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    padding: 0 20px 20px;
+    margin-top: 10px;
+}
+.title {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+
+header {
+    background-color: #333;
+    color: #eee;
+    padding-top: 0px;
+    margin: 0;
+    min-height: 70px;
+    border-bottom: #333 3px solid;
+    
+}
+
+header a {
+    color: #eee;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+
+}
+
+
+
+header li {
+    float: left;
+    display: inline;
+    padding:  0 20px 20px;
+}
+
+
+
+
+#showcase {
+    min-height: 400px;
+    color: black;
+    text-align: center;
+    text-size-adjust: 20px;
+    flex: content;
+
+}
+
+#showcase h1{ 
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+    padding: 50px;
+} 
+
+
+
+header #name {
+    float: left;
+}
+
+header #name h2 {
+    margin: 0;
+}
+
+header nav {
+    float: right;
+    margin-top: 15px;
+    
+    
+
+}
+
+nav a:hover{
+    color: blue;
+}
+
+nav a:visited {
+    color: black;
+}
+
+nav a:active {
+    color: yellow;
+}
+
+#boxes {
+    margin-top: 20px;
+  
+
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#boxes .box{
+    border-style:ridge;
+    border-width: 5px;
+    border-radius: 20px;
+    padding: 20px;
+    flex: 0 0 300px;
+    transform:scale();
+    box-shadow: 10px 10px 10px #333;
+    margin: 20px;
+  }
+
+.box a {
+    color: #333;
+}  
+
+.box a:hover{
+    color: blue;
+}
+
+.box a:visited {
+    color: black;
+}
+
+.box a:active {
+    color: yellow;
+}
+
+
+footer {
+    padding: 40px;
+    margin-top: 30px;
+    color: white;
+    background-color: #333;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 768px) {
+    .container,
+    header,
+    .box,
+    nav {
+      flex-direction: column;
+    }
+    header,
+    .title,
+    nav,
+    footer {
+        background: navy;
+    }
+  }
+  
