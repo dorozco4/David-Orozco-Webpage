@@ -123,6 +123,10 @@ nav a:active {
     margin: 20px;
   }
 
+#boxes .box:hover{
+    box-shadow: 25px 25px 25px #333;
+}
+
 .box a {
     color: #333;
 }  
