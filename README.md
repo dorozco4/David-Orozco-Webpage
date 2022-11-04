@@ -29,5 +29,4 @@ David Orozco
 
 
 
-[
-](https://github.com/dorozco4/David-Orozco-Webpage)
+https://github.com/dorozco4/David-Orozco-Webpage
